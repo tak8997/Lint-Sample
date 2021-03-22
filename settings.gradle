@@ -1,2 +1,3 @@
+include ':lint-rules'
 include ':app'
 rootProject.name = "Lint-Sample"
