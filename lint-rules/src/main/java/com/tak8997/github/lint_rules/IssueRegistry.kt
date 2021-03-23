@@ -9,5 +9,5 @@ class IssueRegistry : IssueRegistry() {
     override val api: Int = CURRENT_API
 
     override val issues: List<Issue>
-        get() = listOf(LifecycleOwnerDetector.ISSUE)
+        get() = listOf(LifecycleOwnerDetector.ISSUE, ViewIdDetector.ISSUE)
 }
